@@ -1,4 +1,4 @@
-class Solution {
+class search_insert_position {
     int binarySearch(int[] array, int searchNumber, int begin, int end) {
         int middleNumber = array[(begin+end)/2];
         if(middleNumber == searchNumber) return (begin+end)/2;
